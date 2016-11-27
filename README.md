@@ -10,11 +10,11 @@ Simple wallpaper browser for https://alpha.wallhaven.cc
 
 ## Preview
 
-![GIF](https://media.giphy.com/media/3oz8xChOnMMHYMBw5O/source.gif)<br />
+![GIF](https://media.giphy.com/media/l0MYEIHhf7o1j9MwU/source.gif)<br />
 
 ## Notes
 
-[GalleryZoomer]: https://github.com/mollyIV/GalleryZoomer component used.
+[GalleryZoomer](https://github.com/mollyIV/GalleryZoomer) component used.
 
 ## License
 
