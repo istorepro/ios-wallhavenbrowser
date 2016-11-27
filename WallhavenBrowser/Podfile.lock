@@ -1,0 +1,18 @@
+PODS:
+  - Kanna (2.0.0)
+  - Kingfisher (3.2.1)
+  - Toast-Swift (2.0.0)
+
+DEPENDENCIES:
+  - Kanna (~> 2.0.0)
+  - Kingfisher (~> 3.0)
+  - Toast-Swift (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  Kanna: 9a6637f72f5c77fe9c045b1efb2a5bb074754af8
+  Kingfisher: 64ef28c6d3d6f344e3ae2d7f5c9da80439505d99
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+
+PODFILE CHECKSUM: c8fac8a6a0664eae4c80715bd978d6cdf7c8ce34
+
+COCOAPODS: 1.1.0.rc.3

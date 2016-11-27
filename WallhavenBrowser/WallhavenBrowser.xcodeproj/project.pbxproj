@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAE61F45B61B3D8475C1FDE5 /* Pods_WallhavenBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F28F2F130CDD8E773B037E /* Pods_WallhavenBrowser.framework */; };
+		E722AD091DE9C9930071F526 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722AD081DE9C9930071F526 /* PinterestLayout.swift */; };
+		E722AD0E1DE9CF310071F526 /* PhotoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722AD0D1DE9CF310071F526 /* PhotoType.swift */; };
+		E722AD101DE9D0C70071F526 /* GalleryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722AD0F1DE9D0C70071F526 /* GalleryType.swift */; };
+		E722AD131DE9D21F0071F526 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722AD121DE9D21F0071F526 /* Consts.swift */; };
+		E722AD171DE9DDD10071F526 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722AD161DE9DDD10071F526 /* UIImageViewExtensions.swift */; };
+		E74067BF1DE625EF0026C1D0 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74067BE1DE625EF0026C1D0 /* CustomImageView.swift */; };
+		E78DFE481DB0C09200DCF8BA /* GalleryZoomerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78DFE451DB0C09200DCF8BA /* GalleryZoomerManager.swift */; };
+		E78DFE491DB0C09200DCF8BA /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78DFE461DB0C09200DCF8BA /* MediaViewController.swift */; };
+		E78DFE4A1DB0C09200DCF8BA /* MediaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78DFE471DB0C09200DCF8BA /* MediaView.xib */; };
+		E7AE98561DAE272500B715F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE98551DAE272500B715F1 /* AppDelegate.swift */; };
+		E7AE98581DAE272500B715F1 /* ImageGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE98571DAE272500B715F1 /* ImageGalleryViewController.swift */; };
+		E7AE985D1DAE272500B715F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7AE985B1DAE272500B715F1 /* Main.storyboard */; };
+		E7AE985F1DAE272500B715F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7AE985E1DAE272500B715F1 /* Assets.xcassets */; };
+		E7AE98621DAE272500B715F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7AE98601DAE272500B715F1 /* LaunchScreen.storyboard */; };
+		E7AE986A1DAE2DD600B715F1 /* ImageCellViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE98691DAE2DD600B715F1 /* ImageCellViewLayout.swift */; };
+		E7AE986C1DAE307200B715F1 /* ImageViewCellLayoutProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE986B1DAE307200B715F1 /* ImageViewCellLayoutProtocol.swift */; };
+		E7AE98701DAE56B500B715F1 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE986F1DAE56B500B715F1 /* ImageViewCell.swift */; };
+		E7AE987C1DAE5BE900B715F1 /* ImageExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE987B1DAE5BE900B715F1 /* ImageExtractor.swift */; };
+		E7AE987E1DAE6B3900B715F1 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AE987D1DAE6B3900B715F1 /* Photo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45F28F2F130CDD8E773B037E /* Pods_WallhavenBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallhavenBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9663092F59E4B190EF6719A7 /* Pods-WallhavenBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallhavenBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallhavenBrowser/Pods-WallhavenBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		CDF612AE355639A45338EF5B /* Pods-WallhavenBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallhavenBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallhavenBrowser/Pods-WallhavenBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		E722AD081DE9C9930071F526 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		E722AD0D1DE9CF310071F526 /* PhotoType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoType.swift; sourceTree = "<group>"; };
+		E722AD0F1DE9D0C70071F526 /* GalleryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryType.swift; sourceTree = "<group>"; };
+		E722AD121DE9D21F0071F526 /* Consts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		E722AD161DE9DDD10071F526 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		E74067BE1DE625EF0026C1D0 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		E78DFE451DB0C09200DCF8BA /* GalleryZoomerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryZoomerManager.swift; sourceTree = "<group>"; };
+		E78DFE461DB0C09200DCF8BA /* MediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
+		E78DFE471DB0C09200DCF8BA /* MediaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaView.xib; sourceTree = "<group>"; };
+		E7AE98521DAE272500B715F1 /* WallhavenBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallhavenBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7AE98551DAE272500B715F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7AE98571DAE272500B715F1 /* ImageGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewController.swift; sourceTree = "<group>"; };
+		E7AE985C1DAE272500B715F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7AE985E1DAE272500B715F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7AE98611DAE272500B715F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7AE98631DAE272500B715F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AE98691DAE2DD600B715F1 /* ImageCellViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCellViewLayout.swift; sourceTree = "<group>"; };
+		E7AE986B1DAE307200B715F1 /* ImageViewCellLayoutProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewCellLayoutProtocol.swift; sourceTree = "<group>"; };
+		E7AE986F1DAE56B500B715F1 /* ImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		E7AE987B1DAE5BE900B715F1 /* ImageExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtractor.swift; sourceTree = "<group>"; };
+		E7AE987D1DAE6B3900B715F1 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7AE984F1DAE272400B715F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE61F45B61B3D8475C1FDE5 /* Pods_WallhavenBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4549756E05229F05A321973E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDF612AE355639A45338EF5B /* Pods-WallhavenBrowser.debug.xcconfig */,
+				9663092F59E4B190EF6719A7 /* Pods-WallhavenBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDBFEF9E4EAE264802939C8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45F28F2F130CDD8E773B037E /* Pods_WallhavenBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E722AD0A1DE9CC530071F526 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE98571DAE272500B715F1 /* ImageGalleryViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E722AD0B1DE9CC770071F526 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE987D1DAE6B3900B715F1 /* Photo.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E722AD0C1DE9CF1F0071F526 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E722AD0D1DE9CF310071F526 /* PhotoType.swift */,
+				E722AD0F1DE9D0C70071F526 /* GalleryType.swift */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		E722AD111DE9D2150071F526 /* Consts */ = {
+			isa = PBXGroup;
+			children = (
+				E722AD121DE9D21F0071F526 /* Consts.swift */,
+			);
+			name = Consts;
+			sourceTree = "<group>";
+		};
+		E722AD141DE9D5080071F526 /* ImageExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE987B1DAE5BE900B715F1 /* ImageExtractor.swift */,
+			);
+			name = ImageExtractor;
+			sourceTree = "<group>";
+		};
+		E722AD151DE9DDAF0071F526 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E722AD161DE9DDD10071F526 /* UIImageViewExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E78DFE441DB0C00700DCF8BA /* GalleryZoomer */ = {
+			isa = PBXGroup;
+			children = (
+				E78DFE451DB0C09200DCF8BA /* GalleryZoomerManager.swift */,
+				E78DFE461DB0C09200DCF8BA /* MediaViewController.swift */,
+				E78DFE471DB0C09200DCF8BA /* MediaView.xib */,
+			);
+			name = GalleryZoomer;
+			sourceTree = "<group>";
+		};
+		E7AE98491DAE272400B715F1 = {
+			isa = PBXGroup;
+			children = (
+				E7AE98541DAE272500B715F1 /* WallhavenBrowser */,
+				E7AE98531DAE272500B715F1 /* Products */,
+				4549756E05229F05A321973E /* Pods */,
+				CDBFEF9E4EAE264802939C8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7AE98531DAE272500B715F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE98521DAE272500B715F1 /* WallhavenBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7AE98541DAE272500B715F1 /* WallhavenBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E722AD151DE9DDAF0071F526 /* Extensions */,
+				E722AD141DE9D5080071F526 /* ImageExtractor */,
+				E722AD111DE9D2150071F526 /* Consts */,
+				E722AD0C1DE9CF1F0071F526 /* Enums */,
+				E722AD0B1DE9CC770071F526 /* Models */,
+				E722AD0A1DE9CC530071F526 /* ViewControllers */,
+				E78DFE441DB0C00700DCF8BA /* GalleryZoomer */,
+				E7C4C7341DAF9856004004DD /* Controls */,
+				E7C4C7331DAF9802004004DD /* CollectionLayout */,
+				E7AE98551DAE272500B715F1 /* AppDelegate.swift */,
+				E7AE985B1DAE272500B715F1 /* Main.storyboard */,
+				E7AE985E1DAE272500B715F1 /* Assets.xcassets */,
+				E7AE98601DAE272500B715F1 /* LaunchScreen.storyboard */,
+				E7AE98631DAE272500B715F1 /* Info.plist */,
+			);
+			path = WallhavenBrowser;
+			sourceTree = "<group>";
+		};
+		E7C4C7331DAF9802004004DD /* CollectionLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E722AD081DE9C9930071F526 /* PinterestLayout.swift */,
+				E7AE98691DAE2DD600B715F1 /* ImageCellViewLayout.swift */,
+				E7AE986B1DAE307200B715F1 /* ImageViewCellLayoutProtocol.swift */,
+			);
+			name = CollectionLayout;
+			sourceTree = "<group>";
+		};
+		E7C4C7341DAF9856004004DD /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				E7AE986F1DAE56B500B715F1 /* ImageViewCell.swift */,
+				E74067BE1DE625EF0026C1D0 /* CustomImageView.swift */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7AE98511DAE272400B715F1 /* WallhavenBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7AE98661DAE272500B715F1 /* Build configuration list for PBXNativeTarget "WallhavenBrowser" */;
+			buildPhases = (
+				DBE8D7FC03DDD1F8DE6B26A7 /* [CP] Check Pods Manifest.lock */,
+				E7AE984E1DAE272400B715F1 /* Sources */,
+				E7AE984F1DAE272400B715F1 /* Frameworks */,
+				E7AE98501DAE272400B715F1 /* Resources */,
+				B8F412878BD796361E471FAA /* [CP] Embed Pods Frameworks */,
+				36FA16EBE11E4BA165A8E3DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallhavenBrowser;
+			productName = WallhavenBrowser;
+			productReference = E7AE98521DAE272500B715F1 /* WallhavenBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7AE984A1DAE272400B715F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Michał Szyszka";
+				TargetAttributes = {
+					E7AE98511DAE272400B715F1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G4F2QAB3HL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E7AE984D1DAE272400B715F1 /* Build configuration list for PBXProject "WallhavenBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7AE98491DAE272400B715F1;
+			productRefGroup = E7AE98531DAE272500B715F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7AE98511DAE272400B715F1 /* WallhavenBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7AE98501DAE272400B715F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7AE98621DAE272500B715F1 /* LaunchScreen.storyboard in Resources */,
+				E78DFE4A1DB0C09200DCF8BA /* MediaView.xib in Resources */,
+				E7AE985F1DAE272500B715F1 /* Assets.xcassets in Resources */,
+				E7AE985D1DAE272500B715F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36FA16EBE11E4BA165A8E3DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WallhavenBrowser/Pods-WallhavenBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F412878BD796361E471FAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WallhavenBrowser/Pods-WallhavenBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE8D7FC03DDD1F8DE6B26A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7AE984E1DAE272400B715F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722AD091DE9C9930071F526 /* PinterestLayout.swift in Sources */,
+				E722AD131DE9D21F0071F526 /* Consts.swift in Sources */,
+				E7AE986A1DAE2DD600B715F1 /* ImageCellViewLayout.swift in Sources */,
+				E722AD101DE9D0C70071F526 /* GalleryType.swift in Sources */,
+				E78DFE491DB0C09200DCF8BA /* MediaViewController.swift in Sources */,
+				E7AE98701DAE56B500B715F1 /* ImageViewCell.swift in Sources */,
+				E722AD0E1DE9CF310071F526 /* PhotoType.swift in Sources */,
+				E7AE987E1DAE6B3900B715F1 /* Photo.swift in Sources */,
+				E7AE986C1DAE307200B715F1 /* ImageViewCellLayoutProtocol.swift in Sources */,
+				E7AE98561DAE272500B715F1 /* AppDelegate.swift in Sources */,
+				E74067BF1DE625EF0026C1D0 /* CustomImageView.swift in Sources */,
+				E7AE987C1DAE5BE900B715F1 /* ImageExtractor.swift in Sources */,
+				E722AD171DE9DDD10071F526 /* UIImageViewExtensions.swift in Sources */,
+				E7AE98581DAE272500B715F1 /* ImageGalleryViewController.swift in Sources */,
+				E78DFE481DB0C09200DCF8BA /* GalleryZoomerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7AE985B1DAE272500B715F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7AE985C1DAE272500B715F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7AE98601DAE272500B715F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7AE98611DAE272500B715F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7AE98641DAE272500B715F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7AE98651DAE272500B715F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7AE98671DAE272500B715F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF612AE355639A45338EF5B /* Pods-WallhavenBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G4F2QAB3HL;
+				INFOPLIST_FILE = WallhavenBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinetreeapps.WallhavenBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E7AE98681DAE272500B715F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9663092F59E4B190EF6719A7 /* Pods-WallhavenBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G4F2QAB3HL;
+				INFOPLIST_FILE = WallhavenBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinetreeapps.WallhavenBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7AE984D1DAE272400B715F1 /* Build configuration list for PBXProject "WallhavenBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AE98641DAE272500B715F1 /* Debug */,
+				E7AE98651DAE272500B715F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7AE98661DAE272500B715F1 /* Build configuration list for PBXNativeTarget "WallhavenBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AE98671DAE272500B715F1 /* Debug */,
+				E7AE98681DAE272500B715F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7AE984A1DAE272400B715F1 /* Project object */;
+}
